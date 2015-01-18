@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BFA50A1A68566F00E89252 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BFA5091A68566F00E89252 /* main.m */; };
+		84BFA50D1A68566F00E89252 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BFA50C1A68566F00E89252 /* AppDelegate.m */; };
+		84BFA5101A68566F00E89252 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BFA50F1A68566F00E89252 /* MainViewController.m */; };
+		84BFA5151A68566F00E89252 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BFA5141A68566F00E89252 /* Images.xcassets */; };
+		84BFA5241A68567000E89252 /* UkieDriveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BFA5231A68567000E89252 /* UkieDriveTests.m */; };
+		84C080251A6AD7860045B3AB /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C080231A6AD7860045B3AB /* icon120.png */; };
+		84C080261A6AD7860045B3AB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C080241A6AD7860045B3AB /* logo.png */; };
+		84C0802A1A6ADA740045B3AB /* empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C080271A6ADA740045B3AB /* empty@2x.png */; };
+		84C080301A6BAA830045B3AB /* play@2x-667.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C0802D1A6BAA830045B3AB /* play@2x-667.png */; };
+		84C080311A6BAA830045B3AB /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C0802E1A6BAA830045B3AB /* play@2x.png */; };
+		84C080321A6BAA830045B3AB /* play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C0802F1A6BAA830045B3AB /* play@3x.png */; };
+		84C080341A6BAD5E0045B3AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C080331A6BAD5E0045B3AB /* AVFoundation.framework */; };
+		84C080381A6BB2D80045B3AB /* pause@2x-667.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C080351A6BB2D80045B3AB /* pause@2x-667.png */; };
+		84C080391A6BB2D80045B3AB /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C080361A6BB2D80045B3AB /* pause@2x.png */; };
+		84C0803A1A6BB2D80045B3AB /* pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C080371A6BB2D80045B3AB /* pause@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84BFA51E1A68567000E89252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BFA4FC1A68566E00E89252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BFA5031A68566F00E89252;
+			remoteInfo = UkieDrive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8499CA321A69E91800F6BCAA /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		84BFA5041A68566F00E89252 /* UkieDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UkieDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BFA5081A68566F00E89252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BFA5091A68566F00E89252 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84BFA50B1A68566F00E89252 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84BFA50C1A68566F00E89252 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84BFA50E1A68566F00E89252 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		84BFA50F1A68566F00E89252 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		84BFA5141A68566F00E89252 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84BFA51D1A68567000E89252 /* UkieDriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkieDriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BFA5221A68567000E89252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BFA5231A68567000E89252 /* UkieDriveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UkieDriveTests.m; sourceTree = "<group>"; };
+		84C080231A6AD7860045B3AB /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		84C080241A6AD7860045B3AB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		84C080271A6ADA740045B3AB /* empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty@2x.png"; sourceTree = "<group>"; };
+		84C0802D1A6BAA830045B3AB /* play@2x-667.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x-667.png"; sourceTree = "<group>"; };
+		84C0802E1A6BAA830045B3AB /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		84C0802F1A6BAA830045B3AB /* play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@3x.png"; sourceTree = "<group>"; };
+		84C080331A6BAD5E0045B3AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84C080351A6BB2D80045B3AB /* pause@2x-667.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x-667.png"; sourceTree = "<group>"; };
+		84C080361A6BB2D80045B3AB /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		84C080371A6BB2D80045B3AB /* pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BFA5011A68566F00E89252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C080341A6BAD5E0045B3AB /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BFA51A1A68567000E89252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BFA4FB1A68566E00E89252 = {
+			isa = PBXGroup;
+			children = (
+				84C080331A6BAD5E0045B3AB /* AVFoundation.framework */,
+				84BFA5061A68566F00E89252 /* UkieDrive */,
+				84BFA5201A68567000E89252 /* UkieDriveTests */,
+				84BFA5051A68566F00E89252 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BFA5051A68566F00E89252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BFA5041A68566F00E89252 /* UkieDrive.app */,
+				84BFA51D1A68567000E89252 /* UkieDriveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BFA5061A68566F00E89252 /* UkieDrive */ = {
+			isa = PBXGroup;
+			children = (
+				84C080221A6AD7860045B3AB /* images */,
+				84BFA50B1A68566F00E89252 /* AppDelegate.h */,
+				84BFA50C1A68566F00E89252 /* AppDelegate.m */,
+				8499CA321A69E91800F6BCAA /* Constants.h */,
+				84BFA50E1A68566F00E89252 /* MainViewController.h */,
+				84BFA50F1A68566F00E89252 /* MainViewController.m */,
+				84BFA5141A68566F00E89252 /* Images.xcassets */,
+				84BFA5071A68566F00E89252 /* Supporting Files */,
+			);
+			path = UkieDrive;
+			sourceTree = "<group>";
+		};
+		84BFA5071A68566F00E89252 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BFA5081A68566F00E89252 /* Info.plist */,
+				84BFA5091A68566F00E89252 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84BFA5201A68567000E89252 /* UkieDriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				84BFA5231A68567000E89252 /* UkieDriveTests.m */,
+				84BFA5211A68567000E89252 /* Supporting Files */,
+			);
+			path = UkieDriveTests;
+			sourceTree = "<group>";
+		};
+		84BFA5211A68567000E89252 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BFA5221A68567000E89252 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C080221A6AD7860045B3AB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84C080351A6BB2D80045B3AB /* pause@2x-667.png */,
+				84C080361A6BB2D80045B3AB /* pause@2x.png */,
+				84C080371A6BB2D80045B3AB /* pause@3x.png */,
+				84C0802D1A6BAA830045B3AB /* play@2x-667.png */,
+				84C0802E1A6BAA830045B3AB /* play@2x.png */,
+				84C0802F1A6BAA830045B3AB /* play@3x.png */,
+				84C080271A6ADA740045B3AB /* empty@2x.png */,
+				84C080231A6AD7860045B3AB /* icon120.png */,
+				84C080241A6AD7860045B3AB /* logo.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BFA5031A68566F00E89252 /* UkieDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BFA5271A68567000E89252 /* Build configuration list for PBXNativeTarget "UkieDrive" */;
+			buildPhases = (
+				84BFA5001A68566F00E89252 /* Sources */,
+				84BFA5011A68566F00E89252 /* Frameworks */,
+				84BFA5021A68566F00E89252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UkieDrive;
+			productName = UkieDrive;
+			productReference = 84BFA5041A68566F00E89252 /* UkieDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84BFA51C1A68567000E89252 /* UkieDriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BFA52A1A68567000E89252 /* Build configuration list for PBXNativeTarget "UkieDriveTests" */;
+			buildPhases = (
+				84BFA5191A68567000E89252 /* Sources */,
+				84BFA51A1A68567000E89252 /* Frameworks */,
+				84BFA51B1A68567000E89252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BFA51F1A68567000E89252 /* PBXTargetDependency */,
+			);
+			name = UkieDriveTests;
+			productName = UkieDriveTests;
+			productReference = 84BFA51D1A68567000E89252 /* UkieDriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BFA4FC1A68566E00E89252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Igor Zhariy";
+				TargetAttributes = {
+					84BFA5031A68566F00E89252 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					84BFA51C1A68567000E89252 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 84BFA5031A68566F00E89252;
+					};
+				};
+			};
+			buildConfigurationList = 84BFA4FF1A68566F00E89252 /* Build configuration list for PBXProject "UkieDrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BFA4FB1A68566E00E89252;
+			productRefGroup = 84BFA5051A68566F00E89252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BFA5031A68566F00E89252 /* UkieDrive */,
+				84BFA51C1A68567000E89252 /* UkieDriveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BFA5021A68566F00E89252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C080311A6BAA830045B3AB /* play@2x.png in Resources */,
+				84C0802A1A6ADA740045B3AB /* empty@2x.png in Resources */,
+				84C0803A1A6BB2D80045B3AB /* pause@3x.png in Resources */,
+				84BFA5151A68566F00E89252 /* Images.xcassets in Resources */,
+				84C080381A6BB2D80045B3AB /* pause@2x-667.png in Resources */,
+				84C080391A6BB2D80045B3AB /* pause@2x.png in Resources */,
+				84C080251A6AD7860045B3AB /* icon120.png in Resources */,
+				84C080301A6BAA830045B3AB /* play@2x-667.png in Resources */,
+				84C080261A6AD7860045B3AB /* logo.png in Resources */,
+				84C080321A6BAA830045B3AB /* play@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BFA51B1A68567000E89252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BFA5001A68566F00E89252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BFA5101A68566F00E89252 /* MainViewController.m in Sources */,
+				84BFA50D1A68566F00E89252 /* AppDelegate.m in Sources */,
+				84BFA50A1A68566F00E89252 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BFA5191A68567000E89252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BFA5241A68567000E89252 /* UkieDriveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84BFA51F1A68567000E89252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BFA5031A68566F00E89252 /* UkieDrive */;
+			targetProxy = 84BFA51E1A68567000E89252 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84BFA5251A68567000E89252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84BFA5261A68567000E89252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BFA5281A68567000E89252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UkieDrive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84BFA5291A68567000E89252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UkieDrive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84BFA52B1A68567000E89252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UkieDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UkieDrive.app/UkieDrive";
+			};
+			name = Debug;
+		};
+		84BFA52C1A68567000E89252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UkieDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UkieDrive.app/UkieDrive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BFA4FF1A68566F00E89252 /* Build configuration list for PBXProject "UkieDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BFA5251A68567000E89252 /* Debug */,
+				84BFA5261A68567000E89252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BFA5271A68567000E89252 /* Build configuration list for PBXNativeTarget "UkieDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BFA5281A68567000E89252 /* Debug */,
+				84BFA5291A68567000E89252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BFA52A1A68567000E89252 /* Build configuration list for PBXNativeTarget "UkieDriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BFA52B1A68567000E89252 /* Debug */,
+				84BFA52C1A68567000E89252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BFA4FC1A68566E00E89252 /* Project object */;
+}

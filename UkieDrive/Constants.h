@@ -11,6 +11,11 @@
 #define _mainViewController [[MainViewController alloc] init]
 #define _bounds [[UIScreen mainScreen] bounds]
 
+#define _statusBarHeight [UIApplication sharedApplication].statusBarFrame.size.height
+#define _navigationBarHeight self.navigationController.navigationBar.frame.size.height
+
+#define _mainUrl @"http://igorzhariy.com/ukiedrive"
+
 // Macro for defining iPhones
 #define _iPhone5 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double)568) < DBL_EPSILON)
 #define _iPhone4 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double)480) < DBL_EPSILON)

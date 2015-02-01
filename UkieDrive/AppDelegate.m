@@ -9,7 +9,9 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "Constants.h"
-#import "AVFoundation/AVFoundation.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
 
 @interface AppDelegate ()
 
@@ -20,16 +22,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     
     NSError *sessionError = nil;
     NSError *activationError = nil;
     
+    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
     [[AVAudioSession sharedInstance] setCategory: AVAudioSessionCategoryPlayback error:&sessionError];
     [[AVAudioSession sharedInstance] setActive: YES error: &activationError];
     
     self.window = [[UIWindow alloc] initWithFrame:_bounds];
     self.window.rootViewController = _mainViewController;
     [self.window makeKeyAndVisible];
+    
+    [Fabric with:@[CrashlyticsKit]];
     
     return YES;
 }
